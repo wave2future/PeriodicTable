@@ -2,7 +2,7 @@
 
 A single-file, dependency-light periodic table of all **118 elements** — every tile opens a detail view with element data, computed electron structure, and an interactive **3D Bohr atomic model** you can spin with your pointer. Fully multilingual.
 
-Everything lives in one file: [`periodic-table.html`](periodic-table.html). No build step, no install — just open it in a browser.
+Everything lives in one file: [`index.html`](index.html). No build step, no install — just open it in a browser.
 
 ## Tools and prompt
 Created using **Claude Fable 5** model.
@@ -19,20 +19,20 @@ Open the file directly:
 
 ```bash
 # Windows
-start periodic-table.html
+start index.html
 
 # macOS
-open periodic-table.html
+open index.html
 
 # Linux
-xdg-open periodic-table.html
+xdg-open index.html
 ```
 
 Or serve it locally (recommended so fonts/three.js load cleanly):
 
 ```bash
 python -m http.server 8000
-# then visit http://localhost:8000/periodic-table.html
+# then visit http://localhost:8000/index.html
 ```
 
 > An internet connection is needed on first load for the CDN-hosted [three.js](https://threejs.org/) (r128) and Google Fonts (Space Grotesk, IBM Plex Mono). The element data and all logic are local.
@@ -89,7 +89,7 @@ Each language includes translated element names, one-line facts, category labels
 
 ```
 5-PeriodicTable/
-├── periodic-table.html   # the entire app — markup, styles, data, and logic
+├── index.html   # the entire app — markup, styles, data, and logic
 └── README.md
 ```
 
