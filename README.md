@@ -4,6 +4,12 @@ A single-file, dependency-light periodic table of all **118 elements** — every
 
 Everything lives in one file: [`periodic-table.html`](periodic-table.html). No build step, no install — just open it in a browser.
 
+## Tools and prompt
+Created using **Claude Fable 5** model.
+
+Prompt: 
+> Generate a periodic table of elements in HTML format, where each element can be clicked to view detailed information, along with interactive 3D atomic structures, etc. Add multilingual support.
+
 ## Quick start
 
 Open the file directly:
@@ -84,6 +90,18 @@ Each language includes translated element names, one-line facts, category labels
 └── README.md
 ```
 
+## Screenshots
+
+![screenshots](./screenshots/1.png)
+
+![screenshots](./screenshots/2.png)
+
+![screenshots](./screenshots/3.png)
+
+![screenshots](./screenshots/4.png)
+
+
 ## License
 
-No license specified. Add one if you intend to share or reuse this.
+MIT — use it freely for teaching and learning.
+
