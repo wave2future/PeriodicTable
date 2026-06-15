@@ -10,6 +10,9 @@ Created using **Claude Fable 5** model.
 Prompt: 
 > Generate a periodic table of elements in HTML format, where each element can be clicked to view detailed information, along with interactive 3D atomic structures, etc. Add multilingual support.
 
+## Preview on Github Pages:
+[Periodic Table](https://wave2future.github.io/PeriodicTable "点击访问")
+
 ## Quick start
 
 Open the file directly:
